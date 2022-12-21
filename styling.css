@@ -1,0 +1,41 @@
+.PFP {
+    width: 120px;
+    border-radius: 60px;
+    float: left;
+    margin: 25px;
+}
+
+.POST {
+    width: 900px;
+    border-radius: 30px;
+    object-fit: cover;
+    position: relative;
+    left: 170px;
+}
+
+.OriginalTweet {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    right: 740px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+
+p.Information {
+    color: gray;
+}
+
+p.Message {
+    font-weight: 100;
+}
+
+.nowrap {
+    display:inline-block;
+}
