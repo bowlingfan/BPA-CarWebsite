@@ -1,18 +1,16 @@
 <script setup lang="ts">
   import { RouterView } from 'vue-router'
-import router from './router';
-
-  function GoToWeb() {
-    router.push('/about');
-  }
-
-  function GoBack() {
-    router.push('/');
-  }
+  import router from './router';
 </script>
 
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+</style>
+
 <template>
-  <p @click="GoToWeb()">a</p>
-  <p @click="GoBack()">b</p>
   <RouterView />
 </template>

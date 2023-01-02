@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:wght@300&display=swap');
+
+.gridbox {
+    display: grid;
+    grid-template-areas:
+        "main main main"
+        "main main main"
+        "card-1 card-2 card-3"
+        "sign-up sign-up sign-up"
+        "footer footer footer"
+}
+
+.grid-item {
+    padding: 100px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.grid-item-1 {
+    grid-area: main;
+
+    padding: 386px;
+    background: url('images/202HondaCivicHatchBack.jpg') no-repeat center center;
+    background-size: cover;
+    box-shadow: inset 0 0 200px 150px black;
+    max-width: 200%;
+    max-height: 200%;
+    vertical-align: text-top;
+}
+
+.grid-item-1 a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border: 1.5px solid white;
+    padding: 20px 40px;
+    color: white;
+    
+    position: relative;
+    bottom: -26.5rem;
+    border-radius: 50px;
+    transition-duration: 250ms;
+    z-index: 3;
+}
+
+.grid-item-1 p {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Michroma', sans-serif;
+    color: white;
+    position: relative;
+}
+
+.grid-item-1 p.name {
+    text-align: left;
+    bottom: -29.5rem;
+    right: 23.25rem;
+}
+
+.grid-item-1 p.cost {
+    color: white;
+    text-align: right;
+    bottom: -23.6rem;
+    left: 23.4rem;
+}
+
+.grid-item-1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.card-main {
+    padding: 100px;
+    background-color: rgb(150, 124, 97);
+}
+
+.card-item {
+    padding: 400px 1px;
+    background-color: white;
+}
+
+.grid-item-2 {
+    grid-area: card-1;
+}
+
+.grid-item-3 {
+    grid-area: card-2;
+}
+
+.grid-item-4 {
+    grid-area: card-3;
+}
+
+.grid-item-5 {
+    grid-area: sign-up;
+    background-color: rgb(115, 151, 179);
+}
+
+.grid-item-6 {
+    grid-area: footer;
+    background-color: rgb(25, 25, 25);
+}
