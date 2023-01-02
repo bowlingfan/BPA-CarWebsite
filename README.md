@@ -1,2 +1,7 @@
 # BPA-CarWebsite
-UPDATED WITH VUE, I WILL BEGIN THIS 1/2/2022.
+Javascript Framework is Vue. 
+
+**To use a Vue project and run it,**
+1. install Node [(NodeJS)](https://nodejs.org/en/)
+2. npm install on terminal, you can find it on the top left.
+3. npm run dev
