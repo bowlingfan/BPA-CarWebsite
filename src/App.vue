@@ -9,8 +9,17 @@
     margin: 0;
     overflow-x: hidden;
   }
+
+  .decor {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px;
+  }
 </style>
 
 <template>
+  <nav>
+
+  </nav>
   <RouterView />
 </template>
