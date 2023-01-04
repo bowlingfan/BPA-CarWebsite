@@ -1,10 +1,8 @@
 # BPA-CarWebsite
-Javascript Framework is Vue. 
-
-**To use a Vue project and run it,**
-1. install Node [(NodeJS)](https://nodejs.org/en/)
-2. npm install on terminal, you can find it on the top left.
-3. npm run dev
+**In order to run a website with a live server:**
+1. Install an extension known as Live Server by Ritwick Dey. (Click here for reference.)[https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer]
+2. Open the project folder.
+3. Right click on any **HTML** file, and press **Open with Live Server**, and it will open a live server for you automatically in your default browser.
 
 ## resources
 https://www.thecarconnection.com/overview/honda_civic-sdn_2022
