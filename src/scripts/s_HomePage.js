@@ -4,7 +4,7 @@ let circle1;
 let circle2;
 let circle3;
 
-window.onload = function ONLOAD() {
+window.onload = function onLoad() {
   signup_text = document.getElementById("signup-text");
   signup_button = document.getElementById("signup-button");
   circle1 = document.getElementById("gi5-circle1");
