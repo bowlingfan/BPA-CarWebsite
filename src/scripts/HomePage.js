@@ -10,7 +10,7 @@ window.onload = function ONLOAD() {
   circle1 = document.getElementById("gi5-circle1");
   circle2 = document.getElementById("gi5-circle2");
   circle3 = document.getElementById("gi5-circle3");
-  window.scrollTo(0, 0);
+  //window.scrollTo(0, 0);
 }
 
 window.addEventListener("scroll", function() {

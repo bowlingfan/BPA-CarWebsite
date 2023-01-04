@@ -126,16 +126,22 @@
 }
 
 .card-main {
+    font-size: 1.75rem;
+    padding: 60px;
     background-color: rgb(150, 124, 97);
+    color: black;
     z-index: 1;
 }
 
 .card-item {
-    padding: 400px 200px;
+    width: 100%;
+    height: 57rem;
     background-color: white;
+    border-radius: 25px;
 }
 
 .grid-item-2 {
+    text-align: center;
     grid-area: card-1;
 }
 
