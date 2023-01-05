@@ -16,16 +16,11 @@
     color: black;
 }
 
-.gridbox a.decor {
+.gridbox a.navigation {
     position: relative;
     border: none;
     padding: 10px;
     bottom: 22rem;
-}
-
-.shapes-circle {
-    border-radius: 50%;
-    position: absolute;
 }
 
 .gridbox {

@@ -1,0 +1,66 @@
+nav {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+nav a.navigation {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 250ms;
+}
+
+nav a.navigation:hover {
+    background-color: white;
+    color: black;
+}
+
+.gridbox {
+    display: grid;
+    color: white;
+    font-size: 30px;
+}
+
+.grid-item {
+    padding: 500px 250px;
+}
+
+.grid-item-1 {
+    padding: 0;
+    background: no-repeat url("../images/ContactSupport.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+.grid-item-1 h1 {
+    padding: 300px 150px;
+    width: 40%;
+    background-color: rgb(115, 151, 179);
+    clip-path: polygon(96% 0, 75% 51%, 96% 100%, 0 100%, 0 0);
+    z-index: 1;
+}
+
+.grid-item-2 {
+    background: no-repeat url("../images/bottom-waves.svg");
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.grid-item-2 p {
+    font-size: 5vw;
+    transform: translate(50%, -63%);
+}
+
+.grid-item-3 {
+    background: no-repeat url("../images/top-waves.svg");
+    background-size: cover;
+    text-align: center;
+}
+
+.grid-item-4 {
+    background-color: rgb(60, 104, 137);
+}

@@ -5,25 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/styling/sty_PublicVars.css">
+    <link rel="stylesheet" href="../../assets/styling/sty_ContactPage.css">
     <script src="../scripts/s_ContactPage.js"></script>
     <title>Contact Page</title>
 </head>
     <body>
         <main>
-            <div>
-            <h1>Hello! How do you want to be contacted?</h1>
-            <select name="contactWay" id="contactWay">
-                <option value="email">E-mail</option>
-                <option value="phone">Phone</option>
-            </select>
-
-            <div id="email">
-                this works
-            </div>
-            <div id="phone">
-                this works
-            </div>
-            <a href="HomePage.html">Home</a>
+            <nav>
+                <a class="navigation" href="HomePage.html">Home</a> &nbsp; 
+                <a class="navigation" href="StorePage.html">Store</a> &nbsp; 
+                <a class="navigation" href="SellTradePage.html">Sell/Trade</a> &nbsp; 
+                <a class="navigation" href="ContactPage.html">Contact</a>
+            </nav>
+            <div class="gridbox">
+                <div class="sr1 shapes-rectangle"> </div>
+                <div class="grid-item grid-item-1" id="header"> 
+                    <h1>Hello! Welcome to our contact support page.</h1>
+                </div>
+                <div class="grid-item grid-item-2" id="phone">
+                    Want to contact us by phone? Here's our number:
+                    <p> 420-6969-1337 </p>
+                </div>
+                <div class="grid-item grid-item-3" id="header-2"> <h2>Want a different method? Try Email!</h2> </div>
+                <div class="grid-item grid-item-4" id="email"> email div </div>
             </div>
         </main>
     </body>

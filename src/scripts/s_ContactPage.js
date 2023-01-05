@@ -7,3 +7,7 @@ window.onload = function onLoad() {
     phoneDIV = document.getElementById("phone");
     selector = document.getElementById("contactWay");
 }
+
+selector.value.onChange = function poop() {
+    console.log("success");
+}
