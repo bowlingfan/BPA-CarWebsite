@@ -23,11 +23,43 @@
                     <h1>Hello! Welcome to our contact support page.</h1>
                 </div>
                 <div class="grid-item grid-item-2" id="phone">
-                    Want to contact us by phone? Here's our number:
-                    <p> 420-6969-1337 </p>
+                    <h2 id="header1">Want to contact us by phone? Here's our number:</h2>
+                    <p id="phoneNumber"> 420-6969-1337 </p>
                 </div>
-                <div class="grid-item grid-item-3" id="header-2"> <h2>Want a different method? Try Email!</h2> </div>
-                <div class="grid-item grid-item-4" id="email"> email div </div>
+                <div class="grid-item grid-item-3" id="header-2"> <h2 id="header2">Want a different method? Try Email!</h2> </div>
+                <div class="grid-item grid-item-4" id="email">
+                    <form onsubmit="working(); return false" id="email-submission">
+                        <h3>What do you need?</h3>
+                        <select id="selector">
+                            <option selected disabled hidden>choose now</option>
+                            <option value="placeholder1">placeholder1</option>
+                            <option value="placeholder2">placeholder2</option>
+                            <option value="placeholder3">placeholder3</option>
+                        </select>
+                        <h3>First and Last Name?</h3>
+                        <input type="text"> <input type="text">
+                        <h3>Your email address?</h3>
+                        <input type="text">
+                        <h3>Title of the ticket?</h3>
+                        <input type="text"> 
+                        <h3>Describe in details what you're requesting.</h3>
+                        <input type="text"> 
+                        <br>
+                        <input type="submit" id="submitter">
+                        <!--
+                            select what you want help with
+                            type in first name
+                            type in last name
+                            type in email
+                            title of the support ticket.
+                            describe what you're requesting
+                        -->
+                    </form>
+
+                    <div id="success">
+                        <p>success</p>
+                    </div>
+                </div>
             </div>
         </main>
     </body>

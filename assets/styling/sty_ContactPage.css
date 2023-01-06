@@ -48,19 +48,47 @@ nav a.navigation:hover {
     background: no-repeat url("../images/bottom-waves.svg");
     background-size: cover;
     background-position-y: bottom;
+    text-align: center;
 }
 
 .grid-item-2 p {
-    font-size: 5vw;
-    transform: translate(50%, -63%);
+    position: relative;
+    font-size: 8.5rem;
+}
+
+.grid-item-2 h2 {
+    position: relative;
+    font-size: 50px;
 }
 
 .grid-item-3 {
+    padding: 500px 250px 0px;
     background: no-repeat url("../images/top-waves.svg");
     background-size: cover;
     text-align: center;
 }
 
+.grid-item-3 h2 {
+    position: relative;
+}
+
 .grid-item-4 {
+    padding: 300px 150px;
     background-color: rgb(60, 104, 137);
 }
+
+#email-submission {
+    background-color: rgb(42, 86, 120);
+    border-radius: 25px;
+    padding: 500px;
+}
+
+input {
+    background: white;
+    border: 1px solid black;
+}
+
+#success {
+    display: none;
+}
+/* 002E74*/

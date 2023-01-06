@@ -24,7 +24,7 @@ window.addEventListener("scroll", function() {
   if (offset <= 1713) {
     signup_button.style.top = -259.45 + offset * 0.15 + "rem";
   } else {
-    signup_button.style.top = -2.5+ "rem";
+    signup_button.style.top = -2.5 + "rem";
   }
 
   circle1.style.left = 15 + offset * 1 + "px";
