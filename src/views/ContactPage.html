@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- idk what this is tbh lol -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+    <!-- This code block are referencing, and using styling and scripts. -->
     <link rel="stylesheet" href="../../assets/styling/sty_PublicVars.css">
     <link rel="stylesheet" href="../../assets/styling/sty_ContactPage.css">
     <script src="../scripts/s_ContactPage.js"></script>
-    <title>Contact Page</title>
 </head>
     <body>
         <main>
+            <!-- Navigation can be separate from the webpage, so I have it it's in own group. -->
             <nav>
                 <a class="navigation" href="HomePage.html">Home</a> &nbsp; 
                 <a class="navigation" href="StorePage.html">Store</a> &nbsp; 
                 <a class="navigation" href="SellTradePage.html">Sell/Trade</a> &nbsp; 
                 <a class="navigation" href="ContactPage.html">Contact</a>
             </nav>
+
+            <!-- This also uses CSS Grid to help organize the webpage. -->
             <div class="gridbox">
-                <div class="sr1 shapes-rectangle"> </div>
+                <!-- Header to introduce the user. -->
                 <div class="grid-item grid-item-1" id="header"> 
                     <h1>Hello! Welcome to our contact support page.</h1>
                 </div>
+
+                <!-- 1st way to contact is by phone, which is displayed here. -->
                 <div class="grid-item grid-item-2" id="phone">
                     <h2 id="header1">Want to contact us by phone? Here's our number:</h2>
                     <p id="phoneNumber"> 420-6969-1337 </p>
                 </div>
+
+                <!-- This introduces the 2nd way of contacting the company. -->
                 <div class="grid-item grid-item-3" id="header-2"> <h2 id="header2">Want a different method? Try Email!</h2> </div>
+
+                <!-- 2nd way to contact is by email, which is displayed here. -->
                 <div class="grid-item grid-item-4" id="email">
+                    <!-- We create a form in order to be able to use some javascript functions that gets the quirkiness done :D (i'll change this code comment later stop) -->
                     <form onsubmit="working(); return false" id="email-submission">
+                        <!--
+                            This is how our form is supposed to behave.
+
+                            select what you want help with
+                            type in first name
+                            type in last name
+                            type in email
+                            title of the support ticket.
+                            describe what you're requesting
+                        -->
                         <h3>What do you need?</h3>
                         <select id="selector">
                             <option selected disabled hidden>choose now</option>
@@ -46,16 +69,9 @@
                         <input type="text"> 
                         <br>
                         <input type="submit" id="submitter">
-                        <!--
-                            select what you want help with
-                            type in first name
-                            type in last name
-                            type in email
-                            title of the support ticket.
-                            describe what you're requesting
-                        -->
                     </form>
 
+                    <!-- shh excuse this please :( -->
                     <div id="success">
                         <p>success</p>
                     </div>

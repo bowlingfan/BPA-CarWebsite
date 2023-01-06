@@ -1,4 +1,24 @@
+/* WHEN STYLING::after
+
+all of this is sort of organized by the order that the html elements go, like how grid-item-1 as a class is first, and it's first here in CSS.
+
+if anything general was to be changed, like an html element, they were TOP priority of the list such as nav, and a.
+*/
+
+
+/* imports fonts from google. (Roboto and Michroma.) */
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:wght@300&display=swap');
+
+.gridbox {
+    color: white;
+    display: grid;
+    grid-template-areas:
+        "main main main"
+        "main main main"
+        "card-1 card-2 card-3"
+        "sign-up sign-up sign-up"
+        "footer footer footer"
+}
 
 .gridbox a {
     color: white;
@@ -23,21 +43,26 @@
     bottom: 22rem;
 }
 
-.gridbox {
-    color: white;
-    display: grid;
-    grid-template-areas:
-        "main main main"
-        "main main main"
-        "card-1 card-2 card-3"
-        "sign-up sign-up sign-up"
-        "footer footer footer"
-}
-
 .grid-item {
     padding: 100px;
     text-align: center;
     overflow-y: hidden;
+}
+
+/* These keyframes were used to animate the car name text, button to buy, and the used cost. */
+@keyframes griditemA {
+    0% {bottom: -31rem}
+    100% {bottom: -25.5rem}
+}
+
+@keyframes griditemPName {
+    0% {bottom: -33rem}
+    100% {bottom: -29rem}
+}
+
+@keyframes griditemPCost {
+    0% {bottom: -27rem}
+    100% {bottom: -23rem}
 }
 
 .grid-item-1 {
@@ -92,21 +117,7 @@
     animation-fill-mode: forwards;
 }
 
-@keyframes griditemA {
-    0% {bottom: -31rem}
-    100% {bottom: -25.5rem}
-}
-
-@keyframes griditemPName {
-    0% {bottom: -33rem}
-    100% {bottom: -29rem}
-}
-
-@keyframes griditemPCost {
-    0% {bottom: -27rem}
-    100% {bottom: -23rem}
-}
-
+/* Card is our advertising part after showing off the main cars we have. */
 .card-main {
     color: black;
     font-size: 1.75rem;
