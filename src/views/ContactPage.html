@@ -41,7 +41,7 @@
                 <!-- 2nd way to contact is by email, which is displayed here. -->
                 <div class="grid-item grid-item-4" id="email">
                     <!-- We create a form in order to be able to use some javascript functions that gets the quirkiness done :D (i'll change this code comment later stop) -->
-                    <form onsubmit="working(); return false" id="email-submission">
+                    <form onsubmit="submission(); return false" id="email-submission">
                         <!--
                             This is how our form is supposed to behave.
 
@@ -52,28 +52,42 @@
                             title of the support ticket.
                             describe what you're requesting
                         -->
-                        <h3>What do you need?</h3>
-                        <select id="selector">
-                            <option selected disabled hidden>choose now</option>
-                            <option value="placeholder1">placeholder1</option>
-                            <option value="placeholder2">placeholder2</option>
-                            <option value="placeholder3">placeholder3</option>
-                        </select>
-                        <h3>First and Last Name?</h3>
-                        <input type="text"> <input type="text">
-                        <h3>Your email address?</h3>
-                        <input type="text">
-                        <h3>Title of the ticket?</h3>
-                        <input type="text"> 
-                        <h3>Describe in details what you're requesting.</h3>
-                        <input type="text"> 
-                        <br>
+                        <div class="email-form form-section-1">
+                            <h3>What do you need?</h3>
+                            <select id="selector" onchange="submission()">
+                                <option selected disabled hidden>choose now</option>
+                                <option value="A">placeholder1</option>
+                                <option value="b">placeholder2</option>
+                                <option value="c">placeholder3</option>
+                            </select>
+                        </div>
+
+                        <div class="email-form form-section-2">
+                            <h3 id="me">First and Last Name?</h3>
+                            <input class="naming" maxlength="25" type="text"> <input class="naming" maxlength="25" type="text">
+                        </div>
+
+                        <div class="email-form form-section-3">
+                            <h3>Your email address?</h3>
+                            <input type="text">
+                        </div>
+
+                        <div class="email-form form-section-4">
+                            <h3>Title of the ticket?</h3>
+                            <input type="text"> 
+                        </div>
+                        
+                        <div class="email-form form-section-5">
+                            <h3>Describe in details what you're requesting.</h3>
+                            <textarea name="detailed-request" id="detailed-request" cols="150" rows="25" wrap="hard"></textarea>
+                        </div>
+
                         <input type="submit" id="submitter">
                     </form>
 
                     <!-- shh excuse this please :( -->
                     <div id="success">
-                        <p>success</p>
+                        <p></p>
                     </div>
                 </div>
             </div>

@@ -2,16 +2,20 @@
 let header1;
 let header2;
 let phoneNumber;
-let submitter;
-let success;
+let selector;
+let form_sections;
+let descriptionBox;
+var chosenRequest;
+var step = 0;
 
 // This function makes absolute sure that the elements in the document load.
 window.onload = function onLoad() {
     header1 = document.getElementById("header1");
     header2 = document.getElementById("header2");
     phoneNumber = document.getElementById("phoneNumber");
-    submitter = document.querySelector("#email-submission");
-    success = document.querySelector("#success")
+    selector = document.querySelector("#selector");
+    descriptionBox = document.getElementById("detailed-request");
+    form_sections = document.getElementsByClassName("email-form");
 }
 
 // This function lets us do the ability of a little animating when we scroll, to give it more life.
@@ -39,9 +43,32 @@ window.addEventListener("scroll", function() {
   })
 
 // this be my dummy function for a little fun when making a support ticket >:) don't mind it for now.
-function working() {
-    if (submitter && success) {
-        submitter.style.display = "none";
-        success.style.display = "block";
+function checkNotStep(rqNumber) {
+    return step != rqNumber;
+}
+
+function checkStep(rqNumber) {
+    return step == rqNumber;
+}
+function submission() {
+    if (checkNotStep(4) == true) {
+        chosenRequest = selector.value;
+
+        form_sections[step].style.display = "none";
+        form_sections[step + 1].style.display = "block";
+        step++;
+        document.getElementById("me").textContent = "You picked " + chosenRequest + ". What's your First Name and Last Name?";
+    } else {
+        document.getElementById("email-submission").style.display = "none";
+        document.getElementById("success").style.display = "inline-block";
+        document.getElementById("success").textContent = "Your request ticket was sent to us. We'll get back to you as soon as we can! Here's your ticket number: " + Math.floor((Math.random() * 1000000) + 0);
+    }  
+
+    if (checkStep(4) == true) {
+        console.log("true");
+        descriptionBox.style.padding = "0";
+    }
+    if (checkNotStep(1) == false) {
+        document.getElementById("submitter").style.display = "inline-block";
     }
 }

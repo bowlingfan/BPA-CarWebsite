@@ -26,8 +26,24 @@ nav a.navigation:hover {
 }
 
 input {
+    outline: none;
     background: white;
-    border: 1px solid black;
+    font-size: 25px;
+    padding: 3vh 5vw;
+    border: 0;
+    border-radius: 20px;
+
+    transition-duration: 250ms;
+}
+
+.naming:focus {
+    background: rgba(220, 220, 220);
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+}
+
+.naming {
+    position: relative;
+    bottom: 25px;
 }
 
 .gridbox {
@@ -87,16 +103,65 @@ input {
 .grid-item-4 {
     padding: 300px 150px;
     background-color: rgb(60, 104, 137);
+    text-align :center;
 }
 
-/* dont mind these two hehehe >:) */
+
 #email-submission {
     background-color: rgb(42, 86, 120);
     border-radius: 25px;
-    padding: 500px;
+    padding: 300px;
 }
 
-#success {
+.email-form {
+    font-size: 100px;
+    text-align: center;
+}
+
+#selector {
+    position:relative;
+    font-size: 25px;
+    padding: 1.75rem 4.5rem;
+    border: 0;
+    bottom: 0px;
+    border-radius: 20px;
+}
+
+
+.form-section-2 {
     display: none;
+}
+
+.form-section-3 {
+    display: none;
+}
+
+.form-section-4 {
+    display: none;
+}
+
+.form-section-5 {
+    display: none;
+}
+
+#submitter {
+    display: none;
+    position: relative;
+    top: 20px;
+}
+
+#submitter:hover {
+    background: rgba(1, 1, 1, 0.25);
+    color: white;
+}
+#success {
+    text-align: center;
+    display: none;
+}
+
+#detailed-request {
+    border-radius: 20px;
+    font-size: 20px;
+    resize: none;
 }
 /* 002E74*/
