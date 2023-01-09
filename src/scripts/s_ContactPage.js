@@ -68,6 +68,7 @@ function submission() {
         console.log("true");
         descriptionBox.style.padding = "0";
     }
+    
     if (checkNotStep(1) == false) {
         document.getElementById("submitter").style.display = "inline-block";
     }
