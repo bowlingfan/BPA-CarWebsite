@@ -1,0 +1,19 @@
+nav {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+nav a.navigation {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 250ms;
+}
+
+nav a.navigation:hover {
+    background-color: white;
+    color: black;
+}
