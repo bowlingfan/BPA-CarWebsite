@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- idk what this is tbh lol -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website</title>
+
+    <!-- This code block are referencing, and using styling and scripts. -->
+    <link rel="stylesheet" href="../../assets/styling/sty_PublicVars.css">
+    <link rel="stylesheet" href="../../assets/styling/sty_HomePage.css">
+    <script src="../scripts/s_HomePage.js"></script>
+  </head>
+  <body>
+    <!-- Relys on a system of CSS gridding which is how it's decently organized and works okay on smaller screens. -->
+    <div class="gridbox"> 
+      <!-- All organized in order from their class number: grid-item-1 all the way to grid-item-5. -->
+      <div class="grid-item grid-item-1">
+        <!-- Navigator, I put it inside the 1st grid item because I wanted it to blend with the background.-->
+        <a class="navigation" href="HomePage.html">Home</a> &nbsp;
+        <a class="navigation" href="StorePage.html">Store</a> &nbsp; 
+        <a class="navigation" href="SellTradePage.html">Sell/Trade</a> &nbsp;
+        <a class="navigation" href="ContactPage.html">Contact</a>
+
+        <!-- Background's small information. -->
+        <p class="name">2022 Honda Civic</p>
+        <a class="button" href="">BUY NOW</a>
+        <p class="cost">Used: $20,674</p>
+      </div>
+      
+      <!-- Cards; prove that we're a great company.-->
+      <div class="grid-item card-main grid-item-2">
+        <div class="card-item">
+          <p>Our experienced staff will help you get the get the car you want for the lowest price.</p>
+        </div>
+      </div>
+      <div class="grid-item card-main grid-item-3">
+        <div class="card-item">
+          <p>Used cars are in pristine conditions!</p>
+        </div>
+      </div>
+      <div class="grid-item card-main grid-item-4">
+        <div class="card-item">
+          <p>With us, you're guaranteed to have the most satisfying and pleasurable experience. </p>
+        </div>
+      </div>
+
+      <!-- A spot to advertise to sign up for us -->
+      <div class="grid-item grid-item-5">
+        <div id="gi5-circle1" class="shapes-circle"></div>
+        <div id="gi5-circle2" class="shapes-circle"></div>
+        <div id="gi5-circle3" class="shapes-circle"></div>
+        <p id="signup-text">Ready to get started now?</p>
+        <a id="signup-button" href="">SIGN UP</a>
+      </div>
+
+      <!-- A footer for extra navigation reference or quick contact points. -->
+      <!--<div class="grid-item grid-item-6">-->
+        
+      <!--</div>-->
+
+    </div>
+
+    <footer class = "footer">
+      <div class = "footer-container">
+        <div class = "row">
+          <div class = "column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href = "#">about us</a></li>
+              <li><a href = "#">privacy policy</a></li>
+            </ul>
+          </div>
+          <div class = "column">
+            <h4>Get Help</h4>
+            <ul>
+              <li><a href = "#">FAQ</a></li>
+              <li><a href = "#">problems?</a></li>
+            </ul>
+          </div>
+          <div class = "column">
+            <h4>Navigate the website</h4>
+            <ul>
+              <li><a href = "HomePage.html">home page</a></li>
+              <li><a href = "StorePage.html">store page</a></li>
+              <li><a href = "SellTradePage.html">sell/trade</a></li>
+              <li><a href = "ContactPage.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
