@@ -25,16 +25,32 @@ main {
 li.cars {
     display: inline-block;
     border-radius: 20px;
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 15px black;
     padding: 75px;
     text-align: right;
+    transition-property: padding;
+    transition-duration: 250ms;
+    margin: 10px;
+}
+
+li.cars:hover {
+    padding: 85px;
 }
 
 li.cars img {
-    width: 100px;
+    float: left;
+    width: 150px;
     height: auto;
     vertical-align: middle;
+    border-radius: 10px;
+    margin-right: 20px; 
+}
+
+li.cars p {
+    font-size: 30px;
 }
 .list-cars {
+    padding: 3.5vw;
     background-color: blue;
 }
