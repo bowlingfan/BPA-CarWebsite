@@ -18,6 +18,23 @@ nav a.navigation:hover {
     color: black;
 }
 
+.gridbox a {
+    color: white;
+    background-color: rgb(55, 255, 0);
+    text-decoration: none;
+    font-size: 20px;
+    border: 1.5px solid rgb(55, 255, 0);
+    padding: 20px 40px;
+    border-radius: 50px;
+    transition-duration: 250ms;
+    transition-property: background-color, border color;
+}
+
+.gridbox a:hover {
+    background-color: rgb(245, 245, 245);
+    color: rgb(55, 255, 0);
+}
+
 input {
     outline: none;
     background: white;
@@ -70,7 +87,16 @@ li.cars p {
 }
 
 li.cars a {
-    white-space: nowrap;
+    position: relative;
+    top: 95px;
+}
+
+li.cars a.small-button {
+    top: 50px;
+}
+
+li.cars a.medium-button {
+    top: 65px;
 }
 
 .list-cars {
