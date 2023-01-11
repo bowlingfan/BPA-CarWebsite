@@ -18,39 +18,79 @@ nav a.navigation:hover {
     color: black;
 }
 
+input {
+    outline: none;
+    background: white;
+    font-size: 25px;
+    padding: 3vh 5vw;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition-duration: 250ms;
+}
+
 main {
     font-size: 20px;
 }
 
 li.cars {
-    display: inline-block;
+    display: block;
     border-radius: 20px;
     background-color: rgb(240, 240, 240);
     box-shadow: 0 0 15px black;
-    padding: 75px;
+    padding: 30px;
     text-align: right;
     transition-property: padding;
     transition-duration: 250ms;
-    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
 }
 
 li.cars:hover {
-    padding: 85px;
+    padding: 50px;
+}
+
+li.cars:hover img {
+    width: 500px;
 }
 
 li.cars img {
     float: left;
-    width: 150px;
+    width: 300px;
     height: auto;
     vertical-align: middle;
     border-radius: 10px;
     margin-right: 20px; 
+
+    transition-duration: 250ms;
 }
 
 li.cars p {
-    font-size: 30px;
+    font-size: 40px;
 }
+
+li.cars a {
+    white-space: nowrap;
+}
+
 .list-cars {
     padding: 3.5vw;
-    background-color: blue;
+    background-color: lightskyblue;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "filter stuff stuff stuff stuff stuff stuff"
+        "filter stuff stuff stuff stuff stuff stuff"
+}
+
+.grid-item-1 {
+    text-align: center;
+    grid-area: filter;
+    background-color: lightblue;
+}
+
+.grid-item-2 {
+    grid-area: stuff;
 }
