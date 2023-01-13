@@ -50,8 +50,9 @@ function checkNotStep(rqNumber) {
 function checkStep(rqNumber) {
     return step == rqNumber;
 }
+
 function submission() {
-    if (checkNotStep(4) == true) {
+    if (checkNotStep(4)) {
         chosenRequest = selector.value;
 
         form_sections[step].style.display = "none";
@@ -64,7 +65,7 @@ function submission() {
         document.getElementById("success").textContent = "Your request ticket was sent to us. We'll get back to you as soon as we can! Here's your ticket number: " + Math.floor((Math.random() * 1000000) + 0);
     }  
 
-    if (checkStep(4) == true) {
+    if (checkStep(4)) {
         console.log("true");
         descriptionBox.style.padding = "0";
     }

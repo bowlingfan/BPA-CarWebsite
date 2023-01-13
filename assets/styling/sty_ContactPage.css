@@ -108,7 +108,6 @@ input {
 
 
 #email-submission {
-    overflow: hidden;
     background-color: rgb(42, 86, 120);
     border-radius: 25px;
     padding: 300px;
@@ -147,8 +146,8 @@ input {
 
 #submitter {
     display: none;
-    position: relative;
     top: 20px;
+    position: relative;
 }
 
 #submitter:hover {
