@@ -19,9 +19,8 @@
         </nav>
 
         <main>
-            <h1>Selling, or Trading?</h1>
             <div class="card">
-                <form id="selltrade-submission" onsubmit="submission(); return false">
+                <form id="selltrade-submission">
                     <div class="card-section section-1"> 
                         <h3>License Plate Number</h3>
                         <p>Enter your License Plate Number</p>
@@ -42,7 +41,7 @@
                         </div>
                         <div class="button restart-page" onclick="restartPage()">Restart</div>
                     </div>
-
+                    
                     <div class="card-section section-3">
                         <h3>Great, now find an address near you</h3>
                         <select id="selector">
@@ -60,14 +59,27 @@
                     </div>
 
                     <div class="card-section section-4">
+                        <h3>Enter your email address.</h3>
+                        <input id="email-address" type="text">
+                        <div class="button next-page button-1" onclick="email_address_filled()">GO</div>
+                    </div>
+
+                    <div class="card-section section-5">
                         <h3>Awesome! Check your email for more information.</h3>
                     </div>
+
+                    <p id="user-created-error" style="color:red; display: none;"></p>
                 </form>
             </div>
 
             <div class="adstuff">
+                <div class="shapes-circle"></div>
                 <h3>Need to sell, or trade your car?</h3>
-                <p>No worries, we've got you covered. Enter you information here about your car, and we'll leave the intriguing work to us.</p>
+                <p>No worries, we've got you covered. Enter your information on the card about your car.</p>
+
+                <div class="shapes-circle"></div>
+                <h3>Simplicity for you.</h3>
+                <p>Take it easy; all of the difficult work is covered for you.</p>
             </div>
         </main>
     </body>

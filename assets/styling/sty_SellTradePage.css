@@ -21,12 +21,13 @@ nav a.navigation:hover {
 main {
     text-align: center;
     background-color: lightsteelblue;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url(../images/blob-bg.svg);
 }
-
 .card {
     display: inline-block;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 200px 300px 200px 300px;
     border-radius: 75px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -139,6 +140,7 @@ main {
     display: none;
 }
 
+
 #selector {
     font-size: 25px;
     padding: 10px;
@@ -186,4 +188,25 @@ main {
 
 .section-4 {
     display: none;
+}
+
+.section-5 {
+    display: none;
+}
+
+#email-address {
+    width: 350px;
+}
+
+.shapes-circle {
+    display: inline-block;
+    position:initial;
+    margin-top: 20px;
+    background-color: rgb(54, 101, 162);
+    width: 200px;
+    height: 200px;
+}
+
+.adstuff {
+    color: white;
 }
