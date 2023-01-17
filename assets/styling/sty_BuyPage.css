@@ -1,0 +1,92 @@
+nav {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+nav a.navigation {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 250ms;
+}
+
+nav a.navigation:hover {
+    background-color: white;
+    color: black;
+}
+
+.card {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    vertical-align: middle;
+}
+
+.half-card-1 {
+    background-color: rgb(234, 234, 234);
+}
+
+.half-card-1 h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.half-card-1 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.half-card-2 {
+    background-color: rgb(150, 124, 97);
+    color: white;
+}
+
+.half-card-2 h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.line {
+    width: 700px;
+    height: 5px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.choose {
+    margin: 20px;
+}
+
+#selector {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+input {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.privacy-policy {
+    margin: 20px;
+}
+
+#submitter {
+    padding: 20px 50px;
+    transition-duration: 250ms;
+    margin-bottom: 20px;
+}
+
+#submitter:hover {
+    background-color: black;
+    color: white;
+}

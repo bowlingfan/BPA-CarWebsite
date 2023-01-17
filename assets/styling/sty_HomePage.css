@@ -162,7 +162,7 @@ if anything general was to be changed, like an html element, they were TOP prior
 }
 
 #gi5-circle1 {
-    top: 2080px;
+    top: 1880px;
     width: 350px;
     height: 350px;
     z-index: 0;
@@ -170,7 +170,7 @@ if anything general was to be changed, like an html element, they were TOP prior
 }
 
 #gi5-circle2 {
-    top: 1900px;
+    top: 1800px;
     width: 220px;
     height: 220px;
     z-index: 0;
@@ -178,7 +178,7 @@ if anything general was to be changed, like an html element, they were TOP prior
 }
 
 #gi5-circle3 {
-    top: 2051px;
+    top: 2040px;
     width: 285px;
     height: 285px;
     z-index: 0;

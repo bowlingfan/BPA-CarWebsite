@@ -1,0 +1,17 @@
+-- Websites used for inspiration
+https://www.dropbox.com/buy/plus -- Store Page
+
+
+-- Websites used as assets
+https://www.thecarconnection.com/overview/honda_civic-sdn_2022 -- Image for main homepage
+https://www.cargurus.com/research/2014-Nissan-Sentra-c24272 -- Image for 2014 Nissan Sentra
+https://www.thecarconnection.com/overview/toyota_corolla_2015 -- Image for 2015 Toyota Corolla
+https://www.caranddriver.com/subaru/crosstrek-2018 -- Image for 2018 Subaru Crosstek
+https://www.thetorquereport.com/2022-honda-civic-hatchback-review-sporty-and-versatile/ -- Image for 2022 Honda Civic on store page.
+https://cars101.ca/listings/2016-bmw-x5-xdrive-35i/ -- Image for 2016 BMW X5 XDRIVE 35I
+https://www.caranddriver.com/reviews/a15101519/2017-jeep-wrangler-review/ -- Image for 2017 Jeep Wrangler
+https://www.edmunds.com/ford/f-150/2016/review/ -- Image for 2016 Ford F-150
+http://www.carnewscafe.com/2015/03/2015-toyota-camry-is-much-improved-and-very-likable/ -- Image for 2015 Toyota Camry
+https://www.cargurus.com/research/2015-Nissan-Frontier-c24631 -- Image for 2015 Nissan Frontier
+
+https://fonts.google.com/ -- finding the fonts Roboto, and Michroma
