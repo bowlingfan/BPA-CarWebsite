@@ -1,6 +1,9 @@
 -- Websites used for inspiration
-https://www.dropbox.com/buy/plus -- Store Page
-
+https://www.dropbox.com/buy/plus -- Buy Page
+https://www.texasdirectauto.com/ -- Sell/Trade page, and Home Page
+https://www.texasauto.com/about-us/ -- Idea of About Page
+https://www.txusedcarsales.com/ -- Store Page
+https://www.autoboutiquetexas.com/used-vehicles-houston-tx -- Store Page
 
 -- Websites used as assets
 https://www.thecarconnection.com/overview/honda_civic-sdn_2022 -- Image for main homepage
@@ -13,5 +16,6 @@ https://www.caranddriver.com/reviews/a15101519/2017-jeep-wrangler-review/ -- Ima
 https://www.edmunds.com/ford/f-150/2016/review/ -- Image for 2016 Ford F-150
 http://www.carnewscafe.com/2015/03/2015-toyota-camry-is-much-improved-and-very-likable/ -- Image for 2015 Toyota Camry
 https://www.cargurus.com/research/2015-Nissan-Frontier-c24631 -- Image for 2015 Nissan Frontier
+https://bpa.org/wp-content/uploads/2020/10/2020_BPA_BrandGuide_F_8.10.20.pdf -- Favicon Logo
 
 https://fonts.google.com/ -- finding the fonts Roboto, and Michroma
