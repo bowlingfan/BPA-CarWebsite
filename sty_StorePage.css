@@ -1,0 +1,177 @@
+nav {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+nav a.navigation {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 250ms;
+}
+
+nav a.navigation:hover {
+    background-color: white;
+    color: black;
+}
+
+.gridbox a {
+    color: white;
+    background-color: rgb(55, 255, 0);
+    text-decoration: none;
+    font-size: 20px;
+    border: 1.5px solid rgb(55, 255, 0);
+    padding: 20px 40px;
+    border-radius: 50px;
+    transition-duration: 250ms;
+    transition-property: background-color, border color;
+}
+
+.gridbox a:hover {
+    background-color: rgb(245, 245, 245);
+    color: rgb(55, 255, 0);
+}
+
+input {
+    outline: none;
+    background: white;
+    font-size: 25px;
+    padding: 3vh 5vw;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition-duration: 250ms;
+}
+
+main {
+    font-size: 20px;
+}
+
+li.cars {
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 15px black;
+    padding: 30px;
+    text-align: right;
+    transition-property: padding;
+    transition-duration: 250ms;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+li.cars:hover {
+    padding: 50px;
+}
+
+li.cars:hover img {
+    width: 500px;
+}
+
+li.cars img {
+    float: left;
+    width: 300px;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-right: 20px; 
+
+    transition-duration: 250ms;
+}
+
+li.cars p {
+    font-size: 40px;
+}
+
+li.cars a {
+    position: relative;
+    top: 95px;
+}
+
+li.cars a.small-button {
+    top: 50px;
+}
+
+li.cars a.medium-button {
+    top: 65px;
+}
+
+.list-cars {
+    padding: 3.5vw;
+    background-color: lightskyblue;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "filter stuff stuff stuff stuff stuff stuff"
+        "filter stuff stuff stuff stuff stuff stuff"
+}
+
+.grid-item-1 {
+    text-align: center;
+    grid-area: filter;
+    background-color: lightblue;
+}
+
+.grid-item-2 {
+    grid-area: stuff;
+}
+
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    line-height: 1.5;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.column h4{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+}
+
+.column h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: rgba(44, 93, 130, 0.5);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.column ul li:not(last-child){
+    margin-bottom: 10px;
+}
+
+.column ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+}

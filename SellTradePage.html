@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Trade Page</title>
+
+    <link rel="stylesheet" href="../../assets/styling/sty_PublicVars.css">
+    <link rel="stylesheet" href="../../assets/styling/sty_SellTradePage.css">
+    <script src="../scripts/s_SellTradePage.js"></script>
+</head>
+    <body>
+        <nav>
+            <a class="navigation" href="HomePage.html">Home</a> &nbsp; 
+            <a class="navigation" href="StorePage.html">Store</a> &nbsp; 
+            <a class="navigation" href="SellTradePage.html">Sell/Trade</a> &nbsp; 
+            <a class="navigation" href="ContactPage.html">Contact</a>
+        </nav>
+
+        <main>
+            <div class="card">
+                <form id="selltrade-submission">
+                    <div class="card-section section-1"> 
+                        <h3>License Plate Number</h3>
+                        <p>Enter your License Plate Number</p>
+                        <div>
+                            <input type="text" id="license-plate" maxlength="10" placeholder="000000#">
+                            <div class="button next-page button-1" onclick="license_plate_filled()">GO</div>
+                        </div>
+                    </div>
+
+                    <div class="card-section section-2"> 
+                        <h3 id="projected-price">Expert's Projected Price</h3>
+                        <div id="cash-expert">...
+                        </div>
+                        <p>Would you like to sell or trade?</p>
+                        <div class="button">
+                            <div class="sell-trade sell" onclick="nextSection()">Sell</div> 
+                            <div class="sell-trade trade" onclick="nextSection()">Trade</div>
+                        </div>
+                        <div class="button restart-page" onclick="restartPage()">Restart</div>
+                    </div>
+                    
+                    <div class="card-section section-3">
+                        <h3>Great, now find an address near you</h3>
+                        <select id="selector">
+                            <option selected disabled hidden>Pick one of six addresses here.</option>
+                            <option value="a">60 Westport Dr. Dallas, TX 75238</option>
+                            <option value="f">8453 Stillwater Lane El Paso, TX 79915</option>
+                            <option value="b">32 Court St. Houston, TX 77063</option>
+                            <option value="d">34 East Sunset Lane Medford, MA 02155</option>
+                            <option value="c">9009C Birch Hill Street Fullerton, CA 92831</option>
+                            <option value="e">775 County Ave. Manitowoc, WI 54220</option>
+                        </select>
+                        
+                        <div class="button back-page" onclick="backSection()">Back</div>
+                        <div class="button confirmation" onclick="nextSection()">Ready?</div>
+                    </div>
+
+                    <div class="card-section section-4">
+                        <h3>Enter your email address.</h3>
+                        <input id="email-address" type="text">
+                        <div class="button next-page button-1" onclick="email_address_filled()">GO</div>
+                    </div>
+
+                    <div class="card-section section-5">
+                        <h3>Awesome! Check your email for more information.</h3>
+                    </div>
+
+                    <p id="user-created-error" style="color:red; display: none;"></p>
+                </form>
+            </div>
+
+            <div class="adstuff">
+                <div class="shapes-circle"></div>
+                <h3>Need to sell, or trade your car?</h3>
+                <p>No worries, we've got you covered. Enter your information on the card about your car.</p>
+
+                <div class="shapes-circle"></div>
+                <h3>Simplicity for you.</h3>
+                <p>Take it easy; all of the difficult work is covered for you.</p>
+            </div>
+        </main>
+
+        <footer class = "footer">
+            <div class = "footer-container">
+              <div class = "row">
+                <div class = "column">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href = "#">about us</a></li>
+                    <li><a href = "#">privacy policy</a></li>
+                  </ul>
+                </div>
+                <div class = "column">
+                  <h4>Get Help</h4>
+                  <ul>
+                    <li><a href = "#">FAQ</a></li>
+                    <li><a href = "ContactPage.html">problems?</a></li>
+                  </ul>
+                </div>
+                <div class = "column">
+                  <h4>Navigate the website</h4>
+                  <ul>
+                    <li><a href = "HomePage.html">home page</a></li>
+                    <li><a href = "StorePage.html">store page</a></li>
+                    <li><a href = "SellTradePage.html">sell/trade</a></li>
+                    <li><a href = "ContactPage.html">contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </body>
+</html>
