@@ -17,5 +17,7 @@ https://www.edmunds.com/ford/f-150/2016/review/ -- Image for 2016 Ford F-150
 http://www.carnewscafe.com/2015/03/2015-toyota-camry-is-much-improved-and-very-likable/ -- Image for 2015 Toyota Camry
 https://www.cargurus.com/research/2015-Nissan-Frontier-c24631 -- Image for 2015 Nissan Frontier
 https://bpa.org/wp-content/uploads/2020/10/2020_BPA_BrandGuide_F_8.10.20.pdf -- Favicon Logo
+https://haikei.app/ -- Creating good-looking curves
+https://www.enehano.com/blog/contacting-salesforce-support-where-do-i-need-to-go -- Contact Page Background Image
 
 https://fonts.google.com/ -- finding the fonts Roboto, and Michroma

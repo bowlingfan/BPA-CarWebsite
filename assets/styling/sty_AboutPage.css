@@ -26,3 +26,137 @@ nav a.navigation:hover {
     font-size: 50px;
     color: blue;
 }
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(54, 101, 162);
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content{
+    float: left;
+    width: 70%;
+    color: aliceblue;
+}
+
+.image{
+    float: right;
+    width: 40%;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.content-s .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+.content-s .content h3{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.content-s .content p{
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-s{
+        float: none;
+        width:100%;
+        display: block;
+        margin: auto;
+    }
+    .image{
+        float: right;
+        width: 40%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    line-height: 1.5;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.column h4{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    position: relative;
+}
+
+.column h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    background-color: rgba(44, 93, 130, 0.5);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.column ul li:not(last-child){
+    margin-bottom: 10px;
+}
+
+.column ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+}
