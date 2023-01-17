@@ -117,19 +117,21 @@ if anything general was to be changed, like an html element, they were TOP prior
 
 /* Card is our advertising part after showing off the main cars we have. */
 .card-main {
-    color: black;
-    font-size: 1.75rem;
+    color: white;
+    font-size: 3rem;
     padding: 60px;
     background-color: rgb(150, 124, 97);
     z-index: 1;
 }
 
+
 .card-item {
     width: 100%;
-    height: 57rem;
-    background-color: white;
+    height: 50rem;
+    background-color: rgb(150, 124, 97);
     border-radius: 25px;
 }
+
 
 .grid-item-2 {
     text-align: center;
