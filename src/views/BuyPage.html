@@ -4,10 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sell Trade Page</title>
+    <title>Purchase a vehicle!</title>
     <link rel="icon" href="../../assets/images/faviconlogo.jpg">
 
     <link rel="stylesheet" href="../../assets/styling/sty_PublicVars.css">
     <link rel="stylesheet" href="../../assets/styling/sty_SellTradePage.css">
     <script src="../scripts/s_SellTradePage.js"></script>
 </head>
+
+<body>
+	<nav>
+            <a class="navigation" href="HomePage.html">Home</a> &nbsp; 
+            <a class="navigation" href="StorePage.html">Store</a> &nbsp; 
+            <a class="navigation" href="SellTradePage.html">Sell/Trade</a> &nbsp; 
+            <a class="navigation" href="ContactPage.html">Contact</a>
+        </nav>
+
+	<main>
+		<div class="card">
+			<div class="half-card-1">
+				<form>
+					<label><h2>Choose your vehicle</h2>
+					</label>
+					<select id="selector">
+                                		<option selected disabled hidden>Choose now</option>
+                                		<option value="2018-Subaru-Crosstek">2018 Subaru Crosstek</option>
+                                		<option value="2022-Honda-Civic">2022 Honda Civic</option>
+                                		<option value="2016-BMW-5X">2016 BMW 5X</option>
+						<option value="2017-Jeep-Wrangler">2017 Jeep Wrangler</option>
+						<option value="2016-Ford-F-150">2016 Ford F-150</option>
+						<option value="2015-Toyota-Camry">2015 Toyota Camry</option>
+						<option value="2015-Nissan-Frontier">2015 Nissan Frontier</option>
+						<option value="2015-Toyota-Corolla">2015 Toyota Corolla</option>
+						<option value="2014-Nissan-Sentra">2014 Nissan Sentra</option>
+                            		</select>
+
+					<label><h2>Enter your credentials</h2>
+					</label>
+					<div class="credentials">
+						<h3>First name</h3>	
+						<input type="text">
+
+						<h3>Last name</h3>
+						<input type="text">
+
+						<h3>Email</h3>
+						<input type="text">
+
+						<h3>Home address</h3>
+						<input type="text">
+					</div>
+
+					<label><h2>Enter your payment information</h2>
+					</label>
+
+					<div class="payment-information">
+						<h3>Card number</h3>	
+						<input type="number">
+
+						<h3>Expiration date</h3>
+						<input type="text" placeholder="MM/YY">
+
+						<h3>Security code</h3>
+						<input type="number">
+
+						<h3>Billing ZIP</h3>
+						<input type="number" maxlength="6">
+					</div>
+
+					As soon as your information is filled out and the vehicle is delivered to you, we will erase what you have given us here.
+					<input type="submit">
+				</form>
+			</div>
+			
+			<div class="half-card-2">
+				<h1>Summary</h1>
+				<img></img>
+				<p id="car-selection">look at me! yipeeeeeeeeee</p>
+				<p id="car-selection-price">$69</p>
+				<h2>Subtotal</h2> 
+				<p>$0.00</p>
+				<h2>Total</h2>
+				<p>$0.00</p>
+			</div>
+		</div>
+	</main>
+</body>
